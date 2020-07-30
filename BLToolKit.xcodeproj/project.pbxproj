@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		50C04E7B24D2FEEA000106D8 /* BLToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C04E7924D2FEEA000106D8 /* BLToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50C04E8524D3004B000106D8 /* UIButton+AlignImageAndTitleVertically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C04E8224D3004B000106D8 /* UIButton+AlignImageAndTitleVertically.swift */; };
+		50C04E8624D3004B000106D8 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C04E8324D3004B000106D8 /* Button.swift */; };
+		50C04E8724D3004B000106D8 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C04E8424D3004B000106D8 /* ButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50C04E7624D2FEEA000106D8 /* BLToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C04E7924D2FEEA000106D8 /* BLToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLToolKit.h; sourceTree = "<group>"; };
 		50C04E7A24D2FEEA000106D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C04E8224D3004B000106D8 /* UIButton+AlignImageAndTitleVertically.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+AlignImageAndTitleVertically.swift"; sourceTree = "<group>"; };
+		50C04E8324D3004B000106D8 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		50C04E8424D3004B000106D8 /* ButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +52,21 @@
 		50C04E7824D2FEEA000106D8 /* BLToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				50C04E8124D3004B000106D8 /* UIButton */,
 				50C04E7924D2FEEA000106D8 /* BLToolKit.h */,
 				50C04E7A24D2FEEA000106D8 /* Info.plist */,
 			);
 			path = BLToolKit;
+			sourceTree = "<group>";
+		};
+		50C04E8124D3004B000106D8 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				50C04E8224D3004B000106D8 /* UIButton+AlignImageAndTitleVertically.swift */,
+				50C04E8324D3004B000106D8 /* Button.swift */,
+				50C04E8424D3004B000106D8 /* ButtonStyle.swift */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C04E8724D3004B000106D8 /* ButtonStyle.swift in Sources */,
+				50C04E8524D3004B000106D8 /* UIButton+AlignImageAndTitleVertically.swift in Sources */,
+				50C04E8624D3004B000106D8 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
